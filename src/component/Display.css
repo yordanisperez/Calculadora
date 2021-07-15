@@ -1,19 +1,27 @@
-#display{
+#formula{
+    min-height: 20px;
+    font-family: digital;
+    font-size: 20px;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    height: 40px;
+    background-color:  #595c5f;
     display: flex;
-    width: 220px;
-    height: 50px;
-    background-color:darkkhaki;
-    border:solid  2px burlywood;
-    border-radius: 25px;
-    margin: 0px 10px 10px 10px;
-    text-align: center;
+    justify-content: flex-end;
     align-items: center;
-    
-    
-}
-
-#display h2{
-    margin: auto;
-}
-
-
+  }
+  
+.outputScreen{
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+    height: 40px;
+    background-color:  #595c5f
+  }
+  

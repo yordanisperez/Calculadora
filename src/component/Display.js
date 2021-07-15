@@ -1,10 +1,20 @@
 import './Display.css'
-import {useContext } from "react";
-import MachineContext  from '../store/Machine-Context'
+
+import Wrapper from './Wrapper';
+
 
 function Display(props){
-    const {display}=useContext(MachineContext);
-    return <div id={"display"}><h2>{display}</h2></div>
+
+    
+    return  <Wrapper>
+                 <div id='formula' onClick={props.focus}>
+                    {props.formula}
+                </div>
+                <span id='display' className={'outputScreen'} onClick={props.focus}>
+                   {props.currentValue}
+                </span>        
+
+          </Wrapper>
 }
 
 export default Display;

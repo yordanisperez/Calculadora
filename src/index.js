@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import DrumMachine from './DrumMachine';
-import {MachineContextProvider} from '../src/store/Machine-Context'
+import Calculator from './Calculator';
+import {CalculatorContextProvider} from './store/Calculator-Context'
 
 
-ReactDOM.render(<MachineContextProvider>
-                        <DrumMachine />
-                </MachineContextProvider>,
+ReactDOM.render(<CalculatorContextProvider>
+                        <Calculator />
+                </CalculatorContextProvider>,
         document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
